@@ -1,0 +1,29 @@
+.layout-slots-base {
+  align-items: center;
+  background-color: #e7f1ff;
+  border: 1px dashed;
+  border-color: #6ea8fe;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  left: -1px;
+  position: relative;
+  top: -1px;
+
+  .slot-label {
+    align-items: center;
+    color: #0a58ca;
+    display: flex;
+    font-family: "Roboto", Helvetica;
+    font-size: 10px;
+    font-weight: 400;
+    height: 32px;
+    justify-content: center;
+    letter-spacing: 0;
+    line-height: 10px;
+    margin-top: -0.50px;
+    position: relative;
+    text-align: center;
+    width: 32px;
+  }
+}

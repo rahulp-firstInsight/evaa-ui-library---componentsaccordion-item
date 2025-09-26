@@ -1,0 +1,39 @@
+.box {
+  height: 969px;
+  width: 888px;
+
+  .components-accordion-2 {
+    align-items: flex-start;
+    background-color: #e9ecef;
+    border: 1px dashed;
+    border-color: #7b61ff;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    left: 0;
+    overflow: hidden;
+    padding: 16px;
+    position: fixed;
+    top: 0;
+    width: 888px;
+
+    .components-accordion-item {
+      align-self: stretch !important;
+      flex: 0 0 auto !important;
+      left: unset !important;
+      top: unset !important;
+      width: 100% !important;
+    }
+
+    .components-accordion-instance {
+      align-self: stretch !important;
+      flex: 0 0 auto !important;
+      left: unset !important;
+      margin-left: -1.00px !important;
+      margin-right: -1.00px !important;
+      top: unset !important;
+      width: 100% !important;
+    }
+  }
+}
